@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-    res.send('<h1 style="color:#876512;">Hello World Backend!</h1>')
+    res.send('<h1 style="color:#876512;">Hello World Backend con docker!</h1>')
 })
 
 app.listen(port, () => {
